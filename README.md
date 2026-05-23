@@ -2,7 +2,7 @@
 
 # Lexicore
 
-**Inoffizieller deutscher Star-Citizen-Übersetzer & Blueprint-Helfer**
+**Inoffizieller Star-Citizen-Helfer: Blueprint-Infos & lesbare Item-Größen**
 
 [![Neuestes Release](https://img.shields.io/github/v/release/GameStreakerDE/StarCitizen_Lexicore_Releases?label=Download&color=2f6bff)](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases/latest)
 ![License](https://img.shields.io/badge/license-Proprietär-c0392b)
@@ -12,7 +12,7 @@
 
 </div>
 
-Lexicore baut eine angepasste deutsche `global.ini` für Star Citizen und reichert
+Lexicore baut eine angepasste **englische** `global.ini` für Star Citizen und reichert
 Missionen mit nützlichen Infos an — komplett über eine einfache Oberfläche, ohne
 manuelles Dateigeschiebe.
 
