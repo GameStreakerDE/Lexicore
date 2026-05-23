@@ -1,5 +1,4 @@
 [
   { "id": "2026-05-23-welcome", "category": "Ankündigung", "title": "Willkommen bei Lexicore", "summary": "Das News-System ist live.", "date": "2026-05-23T12:00:00Z", "body": "## Neu\n- News & Changelog direkt im Tool\n- Kategorien: Ankündigung, Wartung, Wichtig" },
-  { "id": "2026-05-22-scmdb", "category": "Wartung", "title": "Datenquelle umgestellt", "summary": "Baupläne kommen jetzt von scmdb.", "date": "2026-05-22T09:00:00Z", "body": "## Hinweis\n- Contracts/Baupläne werden jetzt direkt von scmdb.net bezogen." },
-  { "id": "2026-05-23-testirida", "category": "Ankündigung", "title": "Hallo Iridanium - Ließ das", "summary": "Personalisierte Nachricht an Iri", "date": "2026-05-23T12:00:00Z", "body": "## Neu\n- Du stinkst \n- Orientierungssinn: Nicht gefunden \n- PvP-Effektivität: Emotionaler Support für Gegner \n- Status: Kritisch \n- Das Tool hat ungewöhnlich viele Schiffskollisionen erkannt" }
+  { "id": "2026-05-22-scmdb", "category": "Wartung", "title": "Datenquelle umgestellt", "summary": "Baupläne kommen jetzt von scmdb.", "date": "2026-05-22T09:00:00Z", "body": "## Hinweis\n- Contracts/Baupläne werden jetzt direkt von scmdb.net bezogen." }
 ]
