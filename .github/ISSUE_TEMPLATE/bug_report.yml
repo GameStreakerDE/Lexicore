@@ -1,12 +1,14 @@
 name: Fehler melden
-description: Einen Fehler oder ein unerwartetes Verhalten in Lexicore melden
+description: Einen Fehler in Lexicore melden – bitte fülle die Felder aus, damit ich ihn nachstellen kann
 title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Danke fürs Melden! Bitte fülle die Felder aus – das hilft enorm bei der Eingrenzung.
+        Danke fürs Melden! 🙏 Je genauer die Angaben, desto schneller lässt sich der Fehler finden.
+        **„Funktioniert nicht" reicht leider nicht** – bitte fülle die Pflichtfelder (mit \*) aus.
+
   - type: input
     id: version
     attributes:
@@ -15,6 +17,7 @@ body:
       placeholder: "v0.4.7"
     validations:
       required: true
+
   - type: dropdown
     id: channel
     attributes:
@@ -27,30 +30,67 @@ body:
         - Mehrere / unklar
     validations:
       required: true
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: Was ist passiert?
-      description: Beschreibe den Fehler. Was hast du erwartet, was ist stattdessen passiert?
-    validations:
-      required: true
+
   - type: textarea
     id: steps
     attributes:
-      label: Schritte zum Reproduzieren
+      label: Was hast du gemacht? (Schritt für Schritt)
+      description: Welche Klicks/Aktionen führen zum Fehler? So genau wie möglich.
       placeholder: |
-        1. ...
-        2. ...
-        3. ...
+        1. Lexicore geöffnet
+        2. Auf „Blueprints" geklickt
+        3. Tab „Verlauf" gewählt
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Was hast du erwartet?
+      placeholder: "Ich habe erwartet, dass ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Was ist stattdessen passiert?
+      description: Fehlermeldung, falsche Anzeige, Absturz, nichts passiert, …
+      placeholder: "Stattdessen ist ... passiert."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Wie oft tritt der Fehler auf?
+      options:
+        - Immer (zuverlässig reproduzierbar)
+        - Manchmal
+        - Nur einmal bisher
+        - Weiß nicht
+    validations:
+      required: true
+
+  - type: input
+    id: since
+    attributes:
+      label: Seit wann / nach welcher Aktion?
+      description: Optional. z.B. „seit dem Update auf v0.4.7" oder „nach einem Game.log-Scan".
+      placeholder: "seit Update auf v0.4.7"
     validations:
       required: false
+
   - type: textarea
     id: logs
     attributes:
-      label: Screenshots / Logs / Meldungen
-      description: Optional, hilft aber sehr.
+      label: Screenshots / Fehlermeldungen / Logs
+      description: Optional, hilft aber enorm. Screenshots kannst du direkt ins Feld ziehen.
+      placeholder: "Screenshot hier einfügen oder Fehlertext einfügen …"
     validations:
       required: false
+
   - type: input
     id: windows
     attributes:
@@ -58,3 +98,16 @@ body:
       placeholder: "Windows 11 23H2"
     validations:
       required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Vorab-Checks
+      description: Bitte kurz bestätigen – spart uns beiden Zeit.
+      options:
+        - label: Ich nutze die neueste Lexicore-Version.
+          required: true
+        - label: Ich habe Lexicore (und ggf. den PC) einmal neu gestartet.
+          required: false
+        - label: Ich habe die Daten in Lexicore aktualisiert (↻ oben rechts).
+          required: false
