@@ -8,6 +8,7 @@
 [![Downloads gesamt](https://img.shields.io/github/downloads/GameStreakerDE/StarCitizen_Lexicore_Releases/total?label=Downloads&color=2f6bff)](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases)
 ![License](https://img.shields.io/badge/license-Proprietär-c0392b)
 ![Platform](https://img.shields.io/badge/platform-Windows-0a1020)
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-Unterstützen-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/gamestreakerde/tip)
 
 ### ➜ [Neueste Version herunterladen](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases/latest)
 
@@ -41,6 +42,12 @@ Die Nutzung erfolgt auf eigenes Risiko.
 
 Basis-Lokalisierung: [StarStrings](https://github.com/MrKraken/StarStrings) (MrKraken) ·
 Daten: [scmdb.net](https://scmdb.net)
+
+## Unterstützen
+
+Lexicore ist ein kostenloses Community-Projekt. Wenn es dir hilft, freue ich mich über einen Kaffee:
+
+➜ [**ko-fi.com/gamestreakerde**](https://ko-fi.com/gamestreakerde/tip)
 
 ## Lizenz
 
