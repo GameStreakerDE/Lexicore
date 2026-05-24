@@ -4,11 +4,11 @@
 
 **Inoffizieller Star-Citizen-Helfer: Blueprint-Infos & lesbare Item-Größen**
 
-[![Neuestes Release](https://img.shields.io/github/v/release/GameStreakerDE/StarCitizen_Lexicore_Releases?label=Download&color=2f6bff)](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases/latest)
-[![Downloads gesamt](https://img.shields.io/github/downloads/GameStreakerDE/StarCitizen_Lexicore_Releases/total?label=Downloads&color=2f6bff)](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases)
-![License](https://img.shields.io/badge/license-Proprietär-c0392b)
-![Platform](https://img.shields.io/badge/platform-Windows-0a1020)
-[![Ko-Fi](https://img.shields.io/badge/Ko--fi-Unterstützen-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/gamestreakerde/tip)
+[![Download](https://img.shields.io/github/v/release/GameStreakerDE/StarCitizen_Lexicore_Releases?label=Download&color=2f6bff&style=for-the-badge&logo=github&logoColor=white)](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/GameStreakerDE/StarCitizen_Lexicore_Releases/total?label=Downloads&color=2f6bff&style=for-the-badge)](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases)
+![Plattform](https://img.shields.io/badge/Plattform-Windows-0a1020?style=for-the-badge&logo=windows&logoColor=white)
+![Lizenz](https://img.shields.io/badge/Lizenz-Proprietär-c0392b?style=for-the-badge)
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-Unterstützen-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/gamestreakerde/tip)
 
 ### ➜ [Neueste Version herunterladen](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases/latest)
 
