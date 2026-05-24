@@ -55,3 +55,12 @@ Proprietäre Software — alle Rechte vorbehalten. Nutzung gemäß [EULA](EULA.m
 (siehe auch [LICENSE](LICENSE)).
 
 © 2026 GameStreakerDE (Daniel Meyer)
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/made-by-community-dark.png">
+  <img src="assets/made-by-community-light.png" alt="Made by the Community" width="120">
+</picture>
+
+</div>
