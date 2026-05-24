@@ -1,0 +1,60 @@
+name: Fehler melden
+description: Einen Fehler oder ein unerwartetes Verhalten in Lexicore melden
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fürs Melden! Bitte fülle die Felder aus – das hilft enorm bei der Eingrenzung.
+  - type: input
+    id: version
+    attributes:
+      label: Lexicore-Version
+      description: Steht oben in der Titelleiste (z.B. v0.4.7).
+      placeholder: "v0.4.7"
+    validations:
+      required: true
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Betroffener Kanal
+      options:
+        - LIVE
+        - PTU
+        - HOTFIX
+        - TECH-PREV
+        - Mehrere / unklar
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Was ist passiert?
+      description: Beschreibe den Fehler. Was hast du erwartet, was ist stattdessen passiert?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Reproduzieren
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots / Logs / Meldungen
+      description: Optional, hilft aber sehr.
+    validations:
+      required: false
+  - type: input
+    id: windows
+    attributes:
+      label: Windows-Version
+      placeholder: "Windows 11 23H2"
+    validations:
+      required: false
