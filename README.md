@@ -6,7 +6,6 @@
 
 [![Neuestes Release](https://img.shields.io/github/v/release/GameStreakerDE/StarCitizen_Lexicore_Releases?label=Download&color=2f6bff)](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases/latest)
 [![Downloads gesamt](https://img.shields.io/github/downloads/GameStreakerDE/StarCitizen_Lexicore_Releases/total?label=Downloads&color=2f6bff)](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases)
-[![Downloads neueste Version](https://img.shields.io/github/downloads/GameStreakerDE/StarCitizen_Lexicore_Releases/latest/total?label=Downloads%20%28aktuell%29&color=2f6bff)](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases/latest)
 ![License](https://img.shields.io/badge/license-Proprietär-c0392b)
 ![Platform](https://img.shields.io/badge/platform-Windows-0a1020)
 
