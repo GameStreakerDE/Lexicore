@@ -129,16 +129,12 @@ Proprietäre Software — alle Rechte vorbehalten. Nutzung gemäß [EULA](EULA.m
 
 ---
 
-<sub>
-
 **Legal notice / Rechtlicher Hinweis**
 
-This is an unofficial Star Citizen fan site, not affiliated with the Cloud Imperium group of companies. All content on this site not authored by its host or users are property of their respective owners. Official site: <https://robertsspaceindustries.com>
+<sub>This is an unofficial Star Citizen fan site, not affiliated with the Cloud Imperium group of companies. All content on this site not authored by its host or users are property of their respective owners. Official site: <https://robertsspaceindustries.com></sub>
 
-Lexicore is a fan localization tool that modifies the local Star Citizen localization file of your own installation; it is free and clearly unofficial. Star Citizen®, Squadron 42®, Roberts Space Industries® and Cloud Imperium® are trademarks of Cloud Imperium Rights LLC and Cloud Imperium Rights Ltd. This project uses assets from the official Star Citizen Fan Kit in accordance with its terms and is not endorsed or sponsored by Cloud Imperium. Use is at your own risk.
+<sub>Lexicore is a fan localization tool that modifies the local Star Citizen localization file of your own installation; it is free and clearly unofficial. Star Citizen®, Squadron 42®, Roberts Space Industries® and Cloud Imperium® are trademarks of Cloud Imperium Rights LLC and Cloud Imperium Rights Ltd. This project uses assets from the official Star Citizen Fan Kit in accordance with its terms and is not endorsed or sponsored by Cloud Imperium. Use is at your own risk.</sub>
 
-Dies ist eine inoffizielle Star-Citizen-Fan-Seite und steht in keiner Verbindung zur Cloud-Imperium-Unternehmensgruppe. Alle Inhalte dieser Seite, die nicht vom Betreiber oder den Nutzern erstellt wurden, sind Eigentum ihrer jeweiligen Inhaber. Offizielle Seite: <https://robertsspaceindustries.com>
+<sub>Dies ist eine inoffizielle Star-Citizen-Fan-Seite und steht in keiner Verbindung zur Cloud-Imperium-Unternehmensgruppe. Alle Inhalte dieser Seite, die nicht vom Betreiber oder den Nutzern erstellt wurden, sind Eigentum ihrer jeweiligen Inhaber. Offizielle Seite: <https://robertsspaceindustries.com></sub>
 
-Lexicore ist ein Fan-Lokalisierungs-Werkzeug, das die lokale Star-Citizen-Lokalisierungsdatei deiner eigenen Installation verändert; es ist kostenlos und eindeutig inoffiziell. Star Citizen®, Squadron 42®, Roberts Space Industries® und Cloud Imperium® sind Marken von Cloud Imperium Rights LLC und Cloud Imperium Rights Ltd. Dieses Projekt verwendet Assets aus dem offiziellen Star-Citizen-Fan-Kit gemäß dessen Bedingungen und wird von Cloud Imperium weder unterstützt noch gesponsert. Die Nutzung erfolgt auf eigenes Risiko.
-
-</sub>
+<sub>Lexicore ist ein Fan-Lokalisierungs-Werkzeug, das die lokale Star-Citizen-Lokalisierungsdatei deiner eigenen Installation verändert; es ist kostenlos und eindeutig inoffiziell. Star Citizen®, Squadron 42®, Roberts Space Industries® und Cloud Imperium® sind Marken von Cloud Imperium Rights LLC und Cloud Imperium Rights Ltd. Dieses Projekt verwendet Assets aus dem offiziellen Star-Citizen-Fan-Kit gemäß dessen Bedingungen und wird von Cloud Imperium weder unterstützt noch gesponsert. Die Nutzung erfolgt auf eigenes Risiko.</sub>
