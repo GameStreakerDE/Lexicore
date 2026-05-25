@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="Lexicore" width="120">
+<img src="assets/logo.png" alt="Lexicore" width="150">
 
 # Lexicore
 
