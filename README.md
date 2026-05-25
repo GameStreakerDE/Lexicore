@@ -2,8 +2,14 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
-  <img src="assets/header-light.png" alt="Lexicore" height="72">
+  <img src="assets/header-light.png" alt="Lexicore" width="100%">
 </picture>
+
+</div>
+
+---
+
+<div align="center">
 
 **Unofficial Star Citizen helper: blueprint info & readable item sizes**
 <br>
