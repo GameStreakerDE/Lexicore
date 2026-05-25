@@ -1,8 +1,12 @@
 <div align="center">
 
-<h1><img src="assets/logo.png" alt="" height="56" align="middle">&nbsp; Lexicore</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
+  <img src="assets/header-light.png" alt="Lexicore" height="72">
+</picture>
 
 **Unofficial Star Citizen helper: blueprint info & readable item sizes**
+<br>
 **Inoffizieller Star-Citizen-Helfer: Blueprint-Infos & lesbare Item-Größen**
 
 [![Download](https://img.shields.io/github/v/release/GameStreakerDE/Lexicore?label=Download&color=2f6bff&style=for-the-badge&logo=github&logoColor=white)](https://github.com/GameStreakerDE/Lexicore/releases/latest)
