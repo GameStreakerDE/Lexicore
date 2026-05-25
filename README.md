@@ -17,6 +17,18 @@
 
 </div>
 
+<div align="center">
+
+<img src="assets/screenshot-app.png" alt="Lexicore app window" width="82%">
+
+<sub>The Lexicore app — manage every channel, see recently unlocked blueprints. · Die Lexicore-App — alle Kanäle verwalten, zuletzt freigeschaltete Baupläne sehen.</sub>
+
+<img src="assets/screenshot-mission.jpg" alt="In-game blueprint mission with injected price, reputation and drop chance" width="49%"> <img src="assets/screenshot-blueprints.jpg" alt="In-game blueprint list with owned markers" width="49%">
+
+<sub>In-game: blueprint missions show price, reputation &amp; drop chance — plus which blueprints you already own. · Im Spiel: Bauplan-Missionen zeigen Preis, Reputation &amp; Drop-Chance — und welche Baupläne du schon besitzt.</sub>
+
+</div>
+
 ## English
 
 Lexicore builds a customized **English** `global.ini` for Star Citizen and enriches
