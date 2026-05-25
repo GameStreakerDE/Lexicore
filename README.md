@@ -5,13 +5,13 @@
 **Unofficial Star Citizen helper: blueprint info & readable item sizes**
 **Inoffizieller Star-Citizen-Helfer: Blueprint-Infos & lesbare Item-Größen**
 
-[![Download](https://img.shields.io/github/v/release/GameStreakerDE/StarCitizen_Lexicore_Releases?label=Download&color=2f6bff&style=for-the-badge&logo=github&logoColor=white)](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/GameStreakerDE/StarCitizen_Lexicore_Releases/total?label=Downloads&color=2f6bff&style=for-the-badge)](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases)
+[![Download](https://img.shields.io/github/v/release/GameStreakerDE/Lexicore?label=Download&color=2f6bff&style=for-the-badge&logo=github&logoColor=white)](https://github.com/GameStreakerDE/Lexicore/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/GameStreakerDE/Lexicore/total?label=Downloads&color=2f6bff&style=for-the-badge)](https://github.com/GameStreakerDE/Lexicore/releases)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0a1020?style=for-the-badge&logo=windows&logoColor=white)
 ![License](https://img.shields.io/badge/License-Proprietary-c0392b?style=for-the-badge)
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/gamestreakerde/tip)
 
-### ➜ [Download the latest version](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases/latest)
+### ➜ [Download the latest version](https://github.com/GameStreakerDE/Lexicore/releases/latest)
 
 **[English](#english) · [Deutsch](#deutsch)**
 
@@ -46,7 +46,7 @@ juggling.
 
 ### Installation
 
-1. [Download the latest version](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases/latest) (`Lexicore Setup x.y.z.exe`).
+1. [Download the latest version](https://github.com/GameStreakerDE/Lexicore/releases/latest) (`Lexicore Setup x.y.z.exe`).
 2. Run the installer. Since the app isn't signed (yet), Windows may show a SmartScreen prompt → "More info" → "Run anyway".
 3. On first launch a short setup wizard walks you through paths and options.
 
@@ -91,7 +91,7 @@ manuelles Dateigeschiebe.
 
 ### Installation
 
-1. [Neueste Version herunterladen](https://github.com/GameStreakerDE/StarCitizen_Lexicore_Releases/releases/latest) (`Lexicore Setup x.y.z.exe`).
+1. [Neueste Version herunterladen](https://github.com/GameStreakerDE/Lexicore/releases/latest) (`Lexicore Setup x.y.z.exe`).
 2. Installer ausführen. Da die App (noch) nicht signiert ist, zeigt Windows ggf. einen SmartScreen-Hinweis → „Weitere Informationen" → „Trotzdem ausführen".
 3. Beim ersten Start führt dich ein kurzer Einrichtungs-Assistent durch Pfade und Optionen.
 

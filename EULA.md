@@ -47,7 +47,7 @@ The license terminates automatically upon any breach of this agreement. Upon ter
 The Software itself does not collect or store any personal data. For updates and for loading game data the Software retrieves content from third parties (including GitHub and scmdb.net); the privacy policies of the respective providers apply to these requests.
 
 ### 10. Official Source
-The Software should be obtained exclusively from the Licensor's official source (GitHub: GameStreakerDE/StarCitizen_Lexicore_Releases). No liability is assumed for damages caused by versions modified by third parties or obtained from unofficial sources.
+The Software should be obtained exclusively from the Licensor's official source (GitHub: GameStreakerDE/Lexicore). No liability is assumed for damages caused by versions modified by third parties or obtained from unofficial sources.
 
 ### 11. Applicable Law
 The law of the Federal Republic of Germany applies, excluding the UN Convention on Contracts for the International Sale of Goods.
@@ -100,7 +100,7 @@ Die Lizenz endet automatisch bei einem Verstoß gegen diese Vereinbarung. Nach B
 Die Software selbst erhebt oder speichert keine personenbezogenen Daten. Für Updates und zum Laden der Spieldaten ruft die Software Inhalte von Dritten ab (u. a. GitHub und scmdb.net); für diese Anfragen gelten die Datenschutzbestimmungen der jeweiligen Anbieter.
 
 ### 10. Offizielle Quelle
-Die Software sollte ausschließlich über die offizielle Quelle des Lizenzgebers bezogen werden (GitHub: GameStreakerDE/StarCitizen_Lexicore_Releases). Für Schäden durch von Dritten veränderte oder aus inoffiziellen Quellen bezogene Versionen wird keine Haftung übernommen.
+Die Software sollte ausschließlich über die offizielle Quelle des Lizenzgebers bezogen werden (GitHub: GameStreakerDE/Lexicore). Für Schäden durch von Dritten veränderte oder aus inoffiziellen Quellen bezogene Versionen wird keine Haftung übernommen.
 
 ### 11. Anwendbares Recht
 Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts.
