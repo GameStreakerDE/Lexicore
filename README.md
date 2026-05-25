@@ -126,3 +126,15 @@ Proprietäre Software — alle Rechte vorbehalten. Nutzung gemäß [EULA](EULA.m
 </picture>
 
 </div>
+
+---
+
+<sub>
+
+**Legal notice / Rechtlicher Hinweis**
+
+This is an unofficial Star Citizen fan tool, not affiliated with the Cloud Imperium group of companies. Star Citizen®, Squadron 42®, Roberts Space Industries® and Cloud Imperium® are trademarks of Cloud Imperium Rights LLC and Cloud Imperium Rights Ltd. All related names, logos, images and content are the property of their respective owners. This project uses assets from the official Star Citizen Fan Kit in accordance with its terms; it is free, contains no paid features, and is not endorsed or sponsored by Cloud Imperium. Use is at your own risk.
+
+Dies ist ein inoffizielles Star-Citizen-Fan-Werkzeug und steht in keiner Verbindung zur Cloud-Imperium-Unternehmensgruppe. Star Citizen®, Squadron 42®, Roberts Space Industries® und Cloud Imperium® sind Marken von Cloud Imperium Rights LLC und Cloud Imperium Rights Ltd. Alle zugehörigen Namen, Logos, Bilder und Inhalte sind Eigentum ihrer jeweiligen Inhaber. Dieses Projekt verwendet Assets aus dem offiziellen Star-Citizen-Fan-Kit gemäß dessen Bedingungen; es ist kostenlos, enthält keine kostenpflichtigen Funktionen und wird von Cloud Imperium weder unterstützt noch gesponsert. Die Nutzung erfolgt auf eigenes Risiko.
+
+</sub>
