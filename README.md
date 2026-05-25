@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1><img src="assets/logo.png" alt="" height="64" align="middle">&nbsp; Lexicore</h1>
+<h1><img src="assets/logo.png" alt="" height="56" align="middle">&nbsp; Lexicore</h1>
 
 **Unofficial Star Citizen helper: blueprint info & readable item sizes**
 **Inoffizieller Star-Citizen-Helfer: Blueprint-Infos & lesbare Item-Größen**
