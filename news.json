@@ -8,7 +8,8 @@
     "body": "<h1><font color=\"#004bfa\">English</font></h1><h2><font color=\"#e91e63\">New</font></h2><ul><li><a href=\"https://github.com/GameStreakerDE/Lexicore\">Testlink</a>&nbsp;</li></ul><hr><h1>Deutsch</h1><h2>Neu</h2><ul><li>1<b><i><u>23</u></i></b></li><li><code>Test Nachricht</code></li></ul>",
     "format": "html",
     "publishAt": "2026-05-28T23:47:00.000Z",
-    "expireAt": "2026-05-29T00:00:00.000Z"
+    "expireAt": "2026-05-29T00:00:00.000Z",
+    "resolved": true
   },
   {
     "id": "2026-05-23-welcome",
