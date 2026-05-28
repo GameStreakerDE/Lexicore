@@ -21,6 +21,8 @@
 ![License](https://img.shields.io/badge/License-Proprietary-c0392b?style=for-the-badge)
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/gamestreakerde/tip)
 
+<!-- VT_BADGE --><!-- /VT_BADGE -->
+
 ### ➜ [Download the latest version](https://github.com/GameStreakerDE/Lexicore/releases/latest)
 
 **[English](#english) · [Deutsch](#deutsch)**
