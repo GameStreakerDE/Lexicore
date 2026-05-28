@@ -21,7 +21,9 @@
 ![License](https://img.shields.io/badge/License-Proprietary-c0392b?style=for-the-badge)
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/gamestreakerde/tip)
 
-<!-- VT_BADGE --><!-- /VT_BADGE -->
+<!-- VT_BADGE -->
+🛡️ VirusTotal scan (v0.6.3): https://www.virustotal.com/gui/file/756dc39758678dd6358d41342060e8810293dca1e9f0002fe476610254ec94ec
+<!-- /VT_BADGE -->
 
 ### ➜ [Download the latest version](https://github.com/GameStreakerDE/Lexicore/releases/latest)
 
