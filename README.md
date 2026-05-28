@@ -22,7 +22,7 @@
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/gamestreakerde/tip)
 
 <!-- VT_BADGE -->
-🛡️ VirusTotal scan (v0.6.3): https://www.virustotal.com/gui/file/756dc39758678dd6358d41342060e8810293dca1e9f0002fe476610254ec94ec
+🛡️ VirusTotal scan (v0.6.4): https://www.virustotal.com/gui/file/9401b3920a42344158079ac2e0072990610b9222aaaa9bca79240ebc8a21a434
 <!-- /VT_BADGE -->
 
 ### ➜ [Download the latest version](https://github.com/GameStreakerDE/Lexicore/releases/latest)
