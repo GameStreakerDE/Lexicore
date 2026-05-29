@@ -43,9 +43,13 @@
 
 <sub>Guided 4-step setup + interactive tour through every button — so nobody gets lost. · Geführtes 4-Schritte-Setup + interaktive Tour durch jede Schaltfläche — damit niemand verloren ist.</sub>
 
-<img src="assets/screenshot-mission.jpg" alt="In-game blueprint mission with injected price, reputation and drop chance" width="49%"> <img src="assets/screenshot-blueprints.jpg" alt="In-game blueprint list with owned markers" width="49%">
+<img src="assets/ingame-item-tooltip.jpg" alt="In-game item tooltip with size, grade and type appended to the name" width="49%"> <img src="assets/ingame-item-detail.jpg" alt="In-game inventory detail panel showing the enriched item name" width="49%">
 
-<sub>In-game: blueprint missions show price, reputation &amp; drop chance — plus which blueprints you already own. · Im Spiel: Bauplan-Missionen zeigen Preis, Reputation &amp; Drop-Chance — und welche Baupläne du schon besitzt.</sub>
+<sub>In-game item names carry size, grade &amp; type (FR-66 → "FR-66 (S1 A Military)") — in tooltips, the freight manager and inventory detail panels. · Item-Namen tragen Größe, Grade &amp; Typ (FR-66 → „FR-66 (S1 A Military)") — in Tooltips, im Freight Manager und in Inventar-Detail-Panels.</sub>
+
+<img src="assets/ingame-mission-list.jpg" alt="In-game contracts list with [BP] markers on mission titles" width="49%"> <img src="assets/ingame-mission-pool.jpg" alt="In-game mission detail with full blueprint pool list and ownership markers" width="49%">
+
+<sub>Contract list shows [BP] / [BP K/N] / [BP DONE] markers at a glance, mission details get the full blueprint pool with [x]/[ ] ownership. · Die Contracts-Liste zeigt auf einen Blick [BP] / [BP K/N] / [BP DONE] Marker, Mission-Details bekommen den kompletten Blueprint-Pool mit [x]/[ ] Besitzstand.</sub>
 
 </div>
 
