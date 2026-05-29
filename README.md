@@ -39,6 +39,10 @@
 
 <sub>The Lexicore app — manage every channel, see recently unlocked blueprints. · Die Lexicore-App — alle Kanäle verwalten, zuletzt freigeschaltete Baupläne sehen.</sub>
 
+<img src="assets/screenshot-setup.png" alt="Guided 4-step setup wizard with theme picker" width="49%"> <img src="assets/screenshot-tutorial.png" alt="Interactive coachmark tutorial walking through every button" width="49%">
+
+<sub>Guided 4-step setup + interactive tour through every button — so nobody gets lost. · Geführtes 4-Schritte-Setup + interaktive Tour durch jede Schaltfläche — damit niemand verloren ist.</sub>
+
 <img src="assets/screenshot-mission.jpg" alt="In-game blueprint mission with injected price, reputation and drop chance" width="49%"> <img src="assets/screenshot-blueprints.jpg" alt="In-game blueprint list with owned markers" width="49%">
 
 <sub>In-game: blueprint missions show price, reputation &amp; drop chance — plus which blueprints you already own. · Im Spiel: Bauplan-Missionen zeigen Preis, Reputation &amp; Drop-Chance — und welche Baupläne du schon besitzt.</sub>
@@ -53,12 +57,16 @@ juggling.
 
 ### What Lexicore does
 
-- **Readable item sizes** instead of cryptic codes.
-- **Blueprint info** right inside the mission: price, reputation, drop chance and possible blueprints.
-- **Unlocked blueprints** are marked automatically — Lexicore reads along with your `Game.log`.
+- **Readable item sizes** instead of cryptic codes (`JS-300 (S1 A Military)` instead of `JS-300`).
+- **Ship weapons** get their damage type and class in the name (`Ballistic Cannon`, `Laser Repeater`, `Distortion Scattergun`, …).
+- **Blueprint info** right inside the mission: price, reputation, drop chance and the full list of possible blueprints.
+- **Unlocked blueprints** are marked automatically — Lexicore reads along with your `Game.log` and adds `[BP]` / `[BP K/N]` / `[BP DONE]` markers to mission titles.
 - **Background watcher:** newly unlocked blueprints land in the `global.ini` automatically; they're in the game on your next launch.
-- **All channels:** LIVE, PTU, HOTFIX and TECH-PREV managed separately.
-- **Auto-update:** Lexicore updates itself.
+- **All channels:** LIVE, PTU, HOTFIX and TECH-PREV managed separately, each with its own injection settings.
+- **Guided setup & interactive tour:** 4-step wizard for first-time configuration plus a coachmark tour through every button — replayable anytime.
+- **5 themes:** UEE Dark, Light, Crimson, Ignis, Umbra — picked with a live preview card.
+- **Built-in feedback:** one-click bug report or feature request, with system info and the matching GitHub issue template pre-filled.
+- **Auto-update:** Lexicore updates itself and stays in the tray during updates if it was already tray-resident.
 
 ### Installation
 
@@ -98,12 +106,16 @@ manuelles Dateigeschiebe.
 
 ### Was Lexicore kann
 
-- **Lesbare Item-Größen** statt kryptischer Kürzel.
-- **Blueprint-Infos** direkt in der Mission: Preis, Reputation, Drop-Chance und mögliche Baupläne.
-- **Freigespielte Baupläne** werden automatisch markiert — Lexicore liest dein `Game.log` mit.
+- **Lesbare Item-Größen** statt kryptischer Kürzel (`JS-300 (S1 A Military)` statt `JS-300`).
+- **Schiffswaffen** bekommen Schadenstyp und Klasse in den Namen (`Ballistic Cannon`, `Laser Repeater`, `Distortion Scattergun`, …).
+- **Blueprint-Infos** direkt in der Mission: Preis, Reputation, Drop-Chance und die komplette Liste möglicher Baupläne.
+- **Freigespielte Baupläne** werden automatisch markiert — Lexicore liest dein `Game.log` mit und ergänzt `[BP]` / `[BP K/N]` / `[BP DONE]` Marker in den Missions-Titeln.
 - **Hintergrund-Watcher:** Neu freigeschaltete Blueprints landen automatisch in der `global.ini`, beim nächsten Spielstart sind sie drin.
-- **Alle Kanäle:** LIVE, PTU, HOTFIX und TECH-PREV getrennt verwaltbar.
-- **Auto-Update:** Lexicore aktualisiert sich selbst.
+- **Alle Kanäle:** LIVE, PTU, HOTFIX und TECH-PREV getrennt verwaltbar, jeder mit eigenen Injektions-Einstellungen.
+- **Geführtes Setup & interaktive Tour:** 4-Schritte-Wizard für die Erst-Konfiguration plus Coachmark-Tour durch jede Schaltfläche — jederzeit wiederholbar.
+- **5 Themes:** UEE Dark, Light, Crimson, Ignis, Umbra — mit Live-Vorschau-Karten ausgewählt.
+- **Eingebautes Feedback:** Bug melden oder Feature vorschlagen mit einem Klick, System-Infos und das passende GitHub-Issue-Template werden vorausgefüllt.
+- **Auto-Update:** Lexicore aktualisiert sich selbst und bleibt während des Updates im Tray, falls es vorher dort lief.
 
 ### Installation
 
