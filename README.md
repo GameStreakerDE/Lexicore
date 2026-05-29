@@ -22,9 +22,9 @@
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-Support-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/gamestreakerde/tip)
 
 <!-- VT_BADGE -->
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-v0.6.8-394eff?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/7f01bc554950ae429effe183f65b0324298436f12cda19f9d3d901ce00621a2e)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-v0.6.9-394eff?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/db8b71f59489d3d1e0ec707524feb8dcfb30599791a9c8f55d182ae3472dae4a)
 
-<sub>SHA-256: <code>7f01bc554950ae429effe183f65b0324298436f12cda19f9d3d901ce00621a2e</code></sub>
+<sub>SHA-256: <code>db8b71f59489d3d1e0ec707524feb8dcfb30599791a9c8f55d182ae3472dae4a</code></sub>
 <!-- /VT_BADGE -->
 
 ### ➜ [Download the latest version](https://github.com/GameStreakerDE/Lexicore/releases/latest)
