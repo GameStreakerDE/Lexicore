@@ -43,6 +43,10 @@
 
 <sub>Guided 4-step setup + interactive tour through every button — so nobody gets lost. · Geführtes 4-Schritte-Setup + interaktive Tour durch jede Schaltfläche — damit niemand verloren ist.</sub>
 
+<img src="assets/screenshot-injections.png" alt="Injections modal — item display, mission enrichment and markers, each toggleable" width="49%"> <img src="assets/screenshot-blueprints.png" alt="Blueprint window with Unlocked / All / History tabs and category filters" width="49%">
+
+<sub>Configure injections (item display, mission enrichment, markers) and browse every blueprint by category, search and ownership state. · Injektionen konfigurieren (Item-Anzeige, Missions-Anreicherung, Markierungen) und alle Baupläne nach Kategorie, Suche und Besitzstand durchsehen.</sub>
+
 <img src="assets/ingame-item-tooltip.jpg" alt="In-game item tooltip with size, grade and type appended to the name" width="49%"> <img src="assets/ingame-item-detail.jpg" alt="In-game inventory detail panel showing the enriched item name" width="49%">
 
 <sub>In-game item names carry size, grade &amp; type (FR-66 → "FR-66 (S1 A Military)") — in tooltips, the freight manager and inventory detail panels. · Item-Namen tragen Größe, Grade &amp; Typ (FR-66 → „FR-66 (S1 A Military)") — in Tooltips, im Freight Manager und in Inventar-Detail-Panels.</sub>
