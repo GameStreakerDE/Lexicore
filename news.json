@@ -1,11 +1,1 @@
-[
-  {
-    "id": "2026-05-23-welcome",
-    "category": "Ankündigung",
-    "title": "Welcome to Lexicore / Willkommen bei Lexicore",
-    "summary": "The news system is live. / Das News-System ist live.",
-    "date": "2026-05-23T12:00:00Z",
-    "format": "html",
-    "body": "<h1>English</h1><h2>New</h2><ul><li>News &amp; changelog right inside the tool</li><li>Categories: Announcement, Maintenance, Important</li></ul><hr><h1>Deutsch</h1><h2>Neu</h2><ul><li>News &amp; Changelog direkt im Tool</li><li>Kategorien: Ankündigung, Wartung, Wichtig</li></ul>"
-  }
-]
+[]
