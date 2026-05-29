@@ -1,5 +1,11 @@
 [
   {
+    "tag_name": "v0.6.9",
+    "name": "0.6.9",
+    "published_at": "2026-05-29T01:38:30Z",
+    "body": "# English\n\n## Improvements\n\n- **In-app feedback wizard** — the bug icon in the title bar now opens a guided wizard with three flows: report a translation bug (something wrong/missing in-game), report a tool bug (Lexicore itself), or suggest a feature. Channel, OS and version are filled in automatically so reports include the context I need to reproduce.\n\n---\n\n# Deutsch\n\n## Verbesserungen\n\n- **In-App-Feedback-Wizard** — das Bug-Icon in der Titelleiste öffnet jetzt einen geführten Wizard mit drei Strängen: Übersetzungs-Bug (etwas ist falsch/fehlt im Spiel), Tool-Bug (Lexicore selbst), oder Feature vorschlagen. Kanal, Betriebssystem und Version werden automatisch eingetragen — Reports kommen mit dem Kontext rein, den ich zum Nachstellen brauche.\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/db8b71f59489d3d1e0ec707524feb8dcfb30599791a9c8f55d182ae3472dae4a\n"
+  },
+  {
     "tag_name": "v0.6.8",
     "name": "0.6.8",
     "published_at": "2026-05-29T00:46:58Z",
@@ -112,11 +118,5 @@
     "name": "0.4.7",
     "published_at": "2026-05-24T02:31:07Z",
     "body": "# English\n\n## Bug fixes\n\n- In the \"Recently unlocked\" section, some entries showed wrong type badges (e.g. \"Other\" instead of \"Component\") because the tiles were loaded before the blueprint data was ready. They now update as soon as the data is loaded.\n\n---\n\n# Deutsch\n\n## Fehlerbehebungen\n\n- Im Bereich „Zuletzt freigeschaltet\" zeigten manche Einträge falsche Typ-Badges (z.B. „Sonstiges\" statt „Komponente\"), weil die Kacheln geladen wurden, bevor die Blueprint-Daten bereit waren. Sie aktualisieren sich jetzt, sobald die Daten geladen sind."
-  },
-  {
-    "tag_name": "v0.4.6",
-    "name": "0.4.6",
-    "published_at": "2026-05-24T01:58:24Z",
-    "body": "# English\n\n## New\n\n- The main window now has a \"Recently unlocked\" section — the latest LIVE blueprints at a glance, with type badges and timestamp. A click opens the history directly.\n- The \"Blueprints\" button now sits as \"All blueprints →\" in the header of this section (instead of in the action bar).\n\n---\n\n# Deutsch\n\n## Neu\n\n- Im Hauptfenster gibt es jetzt einen Bereich „Zuletzt freigeschaltet\" — die neuesten LIVE-Blueprints auf einen Blick, mit Typ-Badges und Zeitstempel. Ein Klick öffnet direkt den Verlauf.\n- Der „Blueprints\"-Button sitzt jetzt als „Alle Blueprints →\" im Kopf dieses Bereichs (statt in der Aktionsleiste)."
   }
 ]
