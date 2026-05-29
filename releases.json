@@ -1,5 +1,11 @@
 [
   {
+    "tag_name": "v0.6.13",
+    "name": "0.6.13",
+    "published_at": "2026-05-29T23:08:22Z",
+    "body": "# English\n\n## Fixes\n\n- **Stay in the tray on in-place updates.** electron-updater relaunches the exe without the original CLI args, so an auto-update used to pop the Lexicore window to the foreground on top of whatever you were doing (often: the game). Now, if the window is hidden when \"Install update\" fires, Lexicore drops a one-shot marker that the next launch consumes — the relaunched app starts hidden, just like it was running before. Normal foreground updates are unchanged.\n\n## Docs\n\n- **README rewrite.** The README was still on 0.3.0 with three features and no screenshots. Now reflects the full current scope (4-step setup wizard, three injection groups, blueprint window with tabs + filters, coachmark tutorial, ship-weapon classification, 5 themes, tray + watcher + auto-update) and includes 5 app screenshots plus 4 in-game examples showing item names with size/grade/type and the `[BP]` / `[BP K/N]` / `[BP DONE]` markers in mission titles.\n\n---\n\n# Deutsch\n\n## Fixes\n\n- **Bleibt nach Update im Tray.** electron-updater startet die exe ohne die ursprünglichen CLI-Args, weshalb ein Auto-Update das Lexicore-Fenster bisher nach vorne geholt hat — mitten in das, was du gerade gemacht hast (oft: zocken). Wenn das Fenster beim „Update installieren\" versteckt ist, hinterlässt Lexicore jetzt einen One-Shot-Marker, den der nächste Start abarbeitet — die App startet wieder versteckt, genauso wie sie vorher lief. Normale Vordergrund-Updates verhalten sich unverändert.\n\n## Doku\n\n- **README neu geschrieben.** Die README war noch auf 0.3.0 mit drei Features und ohne Bilder. Spiegelt jetzt den vollen aktuellen Umfang wieder (4-Step-Setup-Wizard, drei Injektions-Gruppen, Blueprint-Fenster mit Tabs + Filtern, Coachmark-Tutorial, Schiffswaffen-Klassifizierung, 5 Themes, Tray + Watcher + Auto-Update) und zeigt 5 App-Screenshots plus 4 In-Game-Beispiele mit Item-Namen inkl. Größe/Grade/Typ und den `[BP]` / `[BP K/N]` / `[BP DONE]` Markern in Mission-Titeln.\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/2dce54c642a25f0ffd3e77b54b322c1e142f164ff1c0fe2674e575d7eef47225\n"
+  },
+  {
     "tag_name": "v0.6.12",
     "name": "0.6.12",
     "published_at": "2026-05-29T22:09:11Z",
@@ -112,11 +118,5 @@
     "name": "0.5.0",
     "published_at": "2026-05-24T20:24:00Z",
     "body": "# English\n\n## New\n\n- **Selectable language (German / English):** The app interface is now fully bilingual. On first launch the Windows language is pre-selected; switch any time in the Settings or in the setup wizard — live, without a restart.\n\n---\n\n# Deutsch\n\n## Neu\n\n- **Sprache wählbar (Deutsch / Englisch):** Die App-Oberfläche ist jetzt vollständig zweisprachig. Beim ersten Start wird die Windows-Sprache vorgewählt; umschalten jederzeit in den Einstellungen oder im Ersteinrichtungs-Assistenten — live, ohne Neustart."
-  },
-  {
-    "tag_name": "v0.4.10",
-    "name": "0.4.10",
-    "published_at": "2026-05-24T15:43:19Z",
-    "body": "# English\n\n## New\n\n- **Backup & restore** (Settings): export your settings, unlocked blueprints and history to a file and restore them when needed — ideal when switching PCs or as a backup. Installation paths stay PC-specific and are not included in the backup.\n- **\"Open folder\"** button: opens the Lexicore data folder directly in Explorer.\n\n---\n\n# Deutsch\n\n## Neu\n\n- **Backup & Wiederherstellen** (Einstellungen): Exportiere deine Einstellungen, freigeschalteten Blueprints und den Verlauf in eine Datei und spiele sie bei Bedarf wieder ein — ideal für PC-Wechsel oder als Sicherung. Installationspfade bleiben PC-spezifisch und werden nicht mitgesichert.\n- **„Ordner öffnen\"**-Button: öffnet den Lexicore-Datenordner direkt im Explorer."
   }
 ]
