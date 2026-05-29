@@ -36,7 +36,7 @@ body:
     attributes:
       label: Wo im Spiel?
       description: Mission, Item, Schiff, NPC, UI-Element — möglichst spezifisch.
-      placeholder: "z.B. Mission „Investigate the missing convoy" / Item „BlasterC8"
+      placeholder: 'z.B. Mission "Investigate the missing convoy" / Item "BlasterC8"'
     validations:
       required: true
 
