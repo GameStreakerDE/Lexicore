@@ -1,5 +1,11 @@
 [
   {
+    "tag_name": "v0.6.11",
+    "name": "0.6.11",
+    "published_at": "2026-05-29T16:51:39Z",
+    "body": "# English\n\n## Fixes\n\n- **Translation-bug template now loads.** A YAML parse error in the German `translation_bug.yml` template was making GitHub silently fall back to a blank issue form on every Translation-bug submission. Fixed; the wizard now pre-fills the full form.\n- **Feedback templates follow the app language.** Reports from an English-language Lexicore install pick the matching English issue template (`bug_report_en.yml`, `translation_bug_en.yml`, `feature_request_en.yml`) instead of the German originals.\n\n---\n\n# Deutsch\n\n## Fixes\n\n- **Übersetzungs-Bug-Template lädt jetzt.** Ein YAML-Parse-Fehler im deutschen `translation_bug.yml` Template ließ GitHub bei jedem Bug-Wizard-Submit auf das leere Issue-Formular zurückfallen. Gefixt — der Wizard füllt jetzt das komplette Formular vor.\n- **Feedback-Templates folgen der App-Sprache.** Reports aus einer englischsprachigen Lexicore-Installation öffnen das passende englische Issue-Template (`bug_report_en.yml`, `translation_bug_en.yml`, `feature_request_en.yml`) statt der deutschen Originale.\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/8c040d33da817447380201c970ea795e7bc3164748b2c56f7ef1705120667e4d\n"
+  },
+  {
     "tag_name": "v0.6.10",
     "name": "0.6.10",
     "published_at": "2026-05-29T03:10:59Z",
@@ -112,11 +118,5 @@
     "name": "0.4.9",
     "published_at": "2026-05-24T15:27:44Z",
     "body": "# English\n\n## New\n\n- **Missile type tags can be turned off:** The lock-type tags `[IR]` / `[EM]` / `[CS]` in front of missile names can now be hidden — an option in the \"Injections\" window and in the setup wizard. (Takes effect after \"Update\" / reinstall of a channel.)\n\n---\n\n# Deutsch\n\n## Neu\n\n- **Raketen-Typ-Kürzel abschaltbar:** Die Lock-Typ-Kürzel `[IR]` / `[EM]` / `[CS]` vor Raketennamen lassen sich jetzt ausblenden — Option im „Injections\"-Fenster und beim Ersteinrichtungs-Assistenten. (Wirkt nach „Update\" / Neu-Installation eines Kanals.)"
-  },
-  {
-    "tag_name": "v0.4.8",
-    "name": "0.4.8",
-    "published_at": "2026-05-24T15:09:14Z",
-    "body": "# English\n\n## New\n\n- **\"Made by the Community\" banner** on the right of the main window (official Star Citizen Fan Kit logo) with a **Ko-Fi button**, over the full height.\n- **Report a bug** directly from the app: an icon in the title bar and a button in the Settings open the bug form on GitHub.\n- **Copy blueprints:** a \"⧉ Copy\" button in the blueprint window copies the current view (name + type). The list can also now be selected with the mouse and copied via Ctrl+C / right-click.\n- Clicking a tile in \"Recently unlocked\" now jumps directly to the entry in the history and briefly highlights it.\n\n## Improvements\n\n- Consistent icons in the title bar (clean line icons instead of mixed symbols).\n- \"About & Legal\" is now fixed at the bottom of the Settings instead of being its own button.\n\n---\n\n# Deutsch\n\n## Neu\n\n- **„Made by the Community\"-Banner** rechts im Hauptfenster (offizielles Star-Citizen-Fan-Kit-Logo) mit **Ko-Fi-Button**, über die volle Höhe.\n- **Fehler melden** direkt aus der App: Symbol in der Titelleiste und Button in den Einstellungen öffnen das Bug-Formular auf GitHub.\n- **Blueprints kopieren:** „⧉ Kopieren\"-Button im Blueprint-Fenster kopiert die aktuelle Ansicht (Name + Typ). Außerdem lässt sich die Liste jetzt mit der Maus markieren und per Strg+C / Rechtsklick kopieren.\n- Klick auf eine Kachel in „Zuletzt freigeschaltet\" springt jetzt im Verlauf direkt zum Eintrag und hebt ihn kurz hervor.\n\n## Verbesserungen\n\n- Einheitliche Symbole in der Titelleiste (saubere Linien-Icons statt gemischter Symbole).\n- „Über & Rechtliches\" ist jetzt fest unten in den Einstellungen statt als eigener Knopf."
   }
 ]
