@@ -7,14 +7,5 @@
     "date": "2026-05-23T12:00:00Z",
     "format": "html",
     "body": "<h1>English</h1><h2>New</h2><ul><li>News &amp; changelog right inside the tool</li><li>Categories: Announcement, Maintenance, Important</li></ul><hr><h1>Deutsch</h1><h2>Neu</h2><ul><li>News &amp; Changelog direkt im Tool</li><li>Kategorien: Ankündigung, Wartung, Wichtig</li></ul>"
-  },
-  {
-    "id": "2026-05-22-scmdb",
-    "category": "Wartung",
-    "title": "Data source switched / Datenquelle umgestellt",
-    "summary": "Blueprints now come from scmdb. / Baupläne kommen jetzt von scmdb.",
-    "date": "2026-05-22T09:00:00Z",
-    "format": "html",
-    "body": "<h1>English</h1><h2>Note</h2><ul><li>Contracts/blueprints are now sourced directly from scmdb.net.</li></ul><hr><h1>Deutsch</h1><h2>Hinweis</h2><ul><li>Contracts/Baupläne werden jetzt direkt von scmdb.net bezogen.</li></ul>"
   }
 ]
