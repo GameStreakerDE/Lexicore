@@ -1,5 +1,11 @@
 [
   {
+    "tag_name": "v0.6.10",
+    "name": "0.6.10",
+    "published_at": "2026-05-29T03:10:59Z",
+    "body": "# English\n\n## Improvements\n\n- **Mission `[BP]` marker is now ownership-aware.** Missions where you already own every blueprint show `[BP DONE]`, partial progress shows `[BP 3/5]`, and untouched missions stay as `[BP]`. Helps you skip what's already farmed.\n- **Changelog refreshes alongside the update banner.** Previously the release notes for a new version could lag a few minutes behind the \"update available\" banner; they now arrive together.\n\n## Fixes\n\n- Translation-bug reports from the in-app feedback wizard now actually pre-fill the GitHub issue form instead of falling back to a blank issue.\n- The bug-type dropdown in the wizard is properly localized (English / German) instead of always showing German.\n- The feedback modal no longer closes when you select text inside a field and release the mouse outside the dialog.\n\n---\n\n# Deutsch\n\n## Verbesserungen\n\n- **`[BP]`-Marker an Missionen kennt jetzt deinen Fortschritt.** Missionen wo du schon alle Blueprints besitzt zeigen `[BP DONE]`, teilweise besessene `[BP 3/5]`, unberührte bleiben `[BP]`. Spart das Hingucken bei abgefarmten Missionen.\n- **Changelog wird zusammen mit dem Update-Banner aktualisiert.** Vorher hing der Eintrag für die neue Version manchmal ein paar Minuten hinter der Update-Meldung — jetzt kommen sie gleichzeitig.\n\n## Fixes\n\n- Übersetzungs-Bug-Reports aus dem In-App-Feedback-Wizard füllen jetzt das GitHub-Issue-Formular wirklich vor, statt auf ein leeres Issue zurückzufallen.\n- Das Bug-Typ-Dropdown im Wizard ist jetzt korrekt lokalisiert (Englisch / Deutsch) statt immer Deutsch zu zeigen.\n- Das Feedback-Modal schließt nicht mehr wenn du Text in einem Feld markierst und die Maus außerhalb des Dialogs loslässt.\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/42f37997b49957bb8d1e5952a3964f6b79d86c4ab38336ba0ea6a4be464326d1\n"
+  },
+  {
     "tag_name": "v0.6.9",
     "name": "0.6.9",
     "published_at": "2026-05-29T01:38:30Z",
@@ -112,11 +118,5 @@
     "name": "0.4.8",
     "published_at": "2026-05-24T15:09:14Z",
     "body": "# English\n\n## New\n\n- **\"Made by the Community\" banner** on the right of the main window (official Star Citizen Fan Kit logo) with a **Ko-Fi button**, over the full height.\n- **Report a bug** directly from the app: an icon in the title bar and a button in the Settings open the bug form on GitHub.\n- **Copy blueprints:** a \"⧉ Copy\" button in the blueprint window copies the current view (name + type). The list can also now be selected with the mouse and copied via Ctrl+C / right-click.\n- Clicking a tile in \"Recently unlocked\" now jumps directly to the entry in the history and briefly highlights it.\n\n## Improvements\n\n- Consistent icons in the title bar (clean line icons instead of mixed symbols).\n- \"About & Legal\" is now fixed at the bottom of the Settings instead of being its own button.\n\n---\n\n# Deutsch\n\n## Neu\n\n- **„Made by the Community\"-Banner** rechts im Hauptfenster (offizielles Star-Citizen-Fan-Kit-Logo) mit **Ko-Fi-Button**, über die volle Höhe.\n- **Fehler melden** direkt aus der App: Symbol in der Titelleiste und Button in den Einstellungen öffnen das Bug-Formular auf GitHub.\n- **Blueprints kopieren:** „⧉ Kopieren\"-Button im Blueprint-Fenster kopiert die aktuelle Ansicht (Name + Typ). Außerdem lässt sich die Liste jetzt mit der Maus markieren und per Strg+C / Rechtsklick kopieren.\n- Klick auf eine Kachel in „Zuletzt freigeschaltet\" springt jetzt im Verlauf direkt zum Eintrag und hebt ihn kurz hervor.\n\n## Verbesserungen\n\n- Einheitliche Symbole in der Titelleiste (saubere Linien-Icons statt gemischter Symbole).\n- „Über & Rechtliches\" ist jetzt fest unten in den Einstellungen statt als eigener Knopf."
-  },
-  {
-    "tag_name": "v0.4.7",
-    "name": "0.4.7",
-    "published_at": "2026-05-24T02:31:07Z",
-    "body": "# English\n\n## Bug fixes\n\n- In the \"Recently unlocked\" section, some entries showed wrong type badges (e.g. \"Other\" instead of \"Component\") because the tiles were loaded before the blueprint data was ready. They now update as soon as the data is loaded.\n\n---\n\n# Deutsch\n\n## Fehlerbehebungen\n\n- Im Bereich „Zuletzt freigeschaltet\" zeigten manche Einträge falsche Typ-Badges (z.B. „Sonstiges\" statt „Komponente\"), weil die Kacheln geladen wurden, bevor die Blueprint-Daten bereit waren. Sie aktualisieren sich jetzt, sobald die Daten geladen sind."
   }
 ]
