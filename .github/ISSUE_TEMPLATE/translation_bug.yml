@@ -43,12 +43,13 @@ body:
   - type: dropdown
     id: bugtype
     attributes:
-      label: Was ist kaputt?
+      label: Was ist kaputt? / What's broken?
+      description: Die Optionen sind auf Englisch, damit der App-Wizard sie zuverlässig vor-auswählen kann.
       options:
-        - Fehlender Eintrag (zeigt Raw-Key wie @Something)
-        - Falscher Text (übersetzt, aber falsch)
-        - Kaputte Formatierung (Sonderzeichen, abgeschnitten, etc.)
-        - Anderer Fehler
+        - Missing entry (raw key like @Something)
+        - Wrong translation
+        - Broken formatting (special chars, truncated, etc.)
+        - Other
     validations:
       required: true
 
