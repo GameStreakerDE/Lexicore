@@ -1,5 +1,11 @@
 [
   {
+    "tag_name": "v0.6.8",
+    "name": "0.6.8",
+    "published_at": "2026-05-29T00:46:58Z",
+    "body": "# English\r\n\r\n## Improvements\r\n\r\n- **Clickable links** in news entries and changelogs — they now open in your system browser instead of doing nothing.\r\n- **Plain URLs auto-link** in release notes (e.g. the VirusTotal scan link in older changelogs is now clickable).\r\n- **Live news refresh** — the in-app news/changelog list now refreshes automatically every 10 minutes; restarting Lexicore is no longer required to see new entries.\r\n\r\n---\r\n\r\n# Deutsch\r\n\r\n## Verbesserungen\r\n\r\n- **Klickbare Links** in News-Einträgen und Changelogs — öffnen jetzt im Standard-Browser statt nichts zu tun.\r\n- **Rohe URLs werden automatisch verlinkt** in Release-Notes (z.B. der VirusTotal-Scan-Link in älteren Changelogs ist jetzt klickbar).\r\n- **Live News-Refresh** — die In-App News-/Changelog-Liste aktualisiert sich jetzt alle 10 Minuten automatisch; ein Neustart von Lexicore ist nicht mehr nötig für neue Einträge.\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/7f01bc554950ae429effe183f65b0324298436f12cda19f9d3d901ce00621a2e\n"
+  },
+  {
     "tag_name": "v0.6.7",
     "name": "0.6.7",
     "published_at": "2026-05-28T20:13:49Z",
@@ -112,11 +118,5 @@
     "name": "0.4.6",
     "published_at": "2026-05-24T01:58:24Z",
     "body": "# English\n\n## New\n\n- The main window now has a \"Recently unlocked\" section — the latest LIVE blueprints at a glance, with type badges and timestamp. A click opens the history directly.\n- The \"Blueprints\" button now sits as \"All blueprints →\" in the header of this section (instead of in the action bar).\n\n---\n\n# Deutsch\n\n## Neu\n\n- Im Hauptfenster gibt es jetzt einen Bereich „Zuletzt freigeschaltet\" — die neuesten LIVE-Blueprints auf einen Blick, mit Typ-Badges und Zeitstempel. Ein Klick öffnet direkt den Verlauf.\n- Der „Blueprints\"-Button sitzt jetzt als „Alle Blueprints →\" im Kopf dieses Bereichs (statt in der Aktionsleiste)."
-  },
-  {
-    "tag_name": "v0.4.5",
-    "name": "0.4.5",
-    "published_at": "2026-05-24T01:08:16Z",
-    "body": "# English\n\n## Improvements\n\n- On uninstall you are now asked whether your Lexicore data (settings, unlocked blueprints, history) should be kept or completely removed. With automatic updates the data remains untouched.\n\n---\n\n# Deutsch\n\n## Verbesserungen\n\n- Bei der Deinstallation wird jetzt gefragt, ob deine Lexicore-Daten (Einstellungen, freigeschaltete Blueprints, Verlauf) behalten oder vollständig entfernt werden sollen. Bei automatischen Updates bleiben die Daten unangetastet."
   }
 ]
