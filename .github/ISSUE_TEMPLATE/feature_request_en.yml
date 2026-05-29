@@ -1,0 +1,54 @@
+name: Suggest a feature (English)
+description: Suggest an idea or improvement for Lexicore
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for thinking it through! 🚀 The clearer the use case, the more likely it ships.
+
+  - type: input
+    id: version
+    attributes:
+      label: Lexicore version
+      description: Which version is your suggestion based on?
+      placeholder: "v0.6.10"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What are you suggesting?
+      description: What should the feature do? How would you use it?
+      placeholder: "Describe the feature as clearly as possible …"
+    validations:
+      required: true
+
+  - type: textarea
+    id: usecase
+    attributes:
+      label: What for? Which problem does it solve?
+      description: When exactly would you need this? Which workflow gets easier?
+      placeholder: "Currently I have to … — with the feature I could instead …"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives / current workaround
+      description: Optional. How do you cope today? Anything similar in other tools?
+      placeholder: "Currently I do it like this: …"
+    validations:
+      required: false
+
+  - type: textarea
+    id: mockup
+    attributes:
+      label: Mockup / Screenshot
+      description: Optional. Sketch, screenshot, or example from another tool — drop into the field.
+      placeholder: "Drop image here …"
+    validations:
+      required: false

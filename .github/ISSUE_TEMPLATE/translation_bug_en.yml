@@ -1,0 +1,88 @@
+name: Report a translation bug (English)
+description: Something in-game is wrongly translated, missing, or shows a raw key (e.g. @MissionContract_Foo)
+title: "[Translation]: "
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! 🙏 Translation bugs are issues in the Lexicore content — what shows up
+        in the game itself, not in the app. The more precisely you describe **where** and **what**,
+        the faster I can fix it.
+
+  - type: input
+    id: version
+    attributes:
+      label: Lexicore version
+      description: Visible in the title bar (e.g. v0.6.10).
+      placeholder: "v0.6.10"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Affected channel
+      options:
+        - LIVE
+        - PTU
+        - HOTFIX
+        - TECH-PREV
+        - Multiple / unclear
+    validations:
+      required: true
+
+  - type: input
+    id: scope
+    attributes:
+      label: Where in the game?
+      description: Mission, item, ship, NPC, UI element — be as specific as possible.
+      placeholder: 'e.g. Mission "Investigate the missing convoy" / Item "BlasterC8"'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bugtype
+    attributes:
+      label: What's broken?
+      options:
+        - Missing entry (raw key like @Something)
+        - Wrong translation
+        - Broken formatting (special chars, truncated, etc.)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      placeholder: "Expected text …"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually appears?
+      description: As verbatim as possible. For raw keys, the full key (e.g. @MissionContract_Foo).
+      placeholder: "Actual text / raw key …"
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Optional but very helpful. Drag the image directly into the field.
+      placeholder: "Drop screenshot here …"
+    validations:
+      required: false
+
+  - type: input
+    id: windows
+    attributes:
+      label: Operating system
+      placeholder: "Windows 11 23H2"
+    validations:
+      required: false

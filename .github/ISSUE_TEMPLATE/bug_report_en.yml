@@ -1,0 +1,113 @@
+name: Report a bug (English)
+description: Report a bug in Lexicore – please fill in the fields so I can reproduce it
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! 🙏 The more precise the details, the faster the bug can be found.
+        **"It doesn't work" is not enough** – please fill in the required fields (marked \*).
+
+  - type: input
+    id: version
+    attributes:
+      label: Lexicore version
+      description: Visible in the title bar (e.g. v0.6.10).
+      placeholder: "v0.6.10"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Affected channel
+      options:
+        - LIVE
+        - PTU
+        - HOTFIX
+        - TECH-PREV
+        - Multiple / unclear
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you do? (step by step)
+      description: Which clicks/actions lead to the bug? As precise as possible.
+      placeholder: |
+        1. Opened Lexicore
+        2. Clicked "Blueprints"
+        3. Selected the "History" tab
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      placeholder: "I expected that …"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+      description: Error message, wrong display, crash, nothing happened, …
+      placeholder: "Instead, … happened."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Always (reliably reproducible)
+        - Sometimes
+        - Only once so far
+        - Don't know
+    validations:
+      required: true
+
+  - type: input
+    id: since
+    attributes:
+      label: Since when / after which action?
+      description: Optional. e.g. "since updating to v0.6.10" or "after a Game.log scan".
+      placeholder: "since updating to v0.6.10"
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots / error messages / logs
+      description: Optional but very helpful. Drop screenshots directly into the field.
+      placeholder: "Drop screenshot here or paste error text …"
+    validations:
+      required: false
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 23H2"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-checks
+      description: Please confirm – saves us both time.
+      options:
+        - label: I'm on the latest Lexicore version.
+          required: true
+        - label: I've restarted Lexicore (and possibly the PC) at least once.
+          required: false
+        - label: I've refreshed the data in Lexicore (↻ top right).
+          required: false
