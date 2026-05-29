@@ -1,0 +1,87 @@
+name: Übersetzungs-Bug melden
+description: Etwas im Spiel ist falsch übersetzt, fehlt, oder zeigt einen Raw-Key (z.B. @MissionContract_Foo)
+title: "[Translation]: "
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fürs Melden! 🙏 Übersetzungs-Bugs sind Probleme im Lexicore-Content — also was im Spiel angezeigt wird,
+        nicht in der App selbst. Je genauer du beschreibst **wo** und **was**, desto schneller fixe ich es.
+
+  - type: input
+    id: version
+    attributes:
+      label: Lexicore-Version
+      description: Steht oben in der Titelleiste (z.B. v0.6.8).
+      placeholder: "v0.6.8"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Betroffener Kanal
+      options:
+        - LIVE
+        - PTU
+        - HOTFIX
+        - TECH-PREV
+        - Mehrere / unklar
+    validations:
+      required: true
+
+  - type: input
+    id: scope
+    attributes:
+      label: Wo im Spiel?
+      description: Mission, Item, Schiff, NPC, UI-Element — möglichst spezifisch.
+      placeholder: "z.B. Mission „Investigate the missing convoy" / Item „BlasterC8"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bugtype
+    attributes:
+      label: Was ist kaputt?
+      options:
+        - Fehlender Eintrag (zeigt Raw-Key wie @Something)
+        - Falscher Text (übersetzt, aber falsch)
+        - Kaputte Formatierung (Sonderzeichen, abgeschnitten, etc.)
+        - Anderer Fehler
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Was sollte da stehen?
+      placeholder: "Erwarteter Text …"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Was steht da tatsächlich?
+      description: Wortlaut so exakt wie möglich. Bei Raw-Keys den vollständigen Key (z.B. @MissionContract_Foo).
+      placeholder: "Tatsächlicher Text / Raw-Key …"
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Optional, hilft enorm. Direkt ins Feld ziehen.
+      placeholder: "Screenshot hier einfügen …"
+    validations:
+      required: false
+
+  - type: input
+    id: windows
+    attributes:
+      label: Betriebssystem
+      placeholder: "Windows 11 23H2"
+    validations:
+      required: false
