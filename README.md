@@ -51,9 +51,9 @@
 
 <sub>In-game item names carry size, grade &amp; type (FR-66 → "FR-66 (S1 A Military)") — in tooltips, the freight manager and inventory detail panels. · Item-Namen tragen Größe, Grade &amp; Typ (FR-66 → „FR-66 (S1 A Military)") — in Tooltips, im Freight Manager und in Inventar-Detail-Panels.</sub>
 
-<img src="assets/ingame-mission-pool.png" alt="In-game contracts: [BP] markers in the list + full blueprint pool with ownership markers in the detail view" width="82%">
+<img src="assets/ingame-mission-pool.png" alt="In-game mission detail with price and drop chance injected before the briefing" width="49%"> <img src="assets/ingame-bp-list.png" alt="In-game mission detail with the full blueprint pool list and [x]/[ ] ownership markers" width="49%">
 
-<sub>Contract list shows [BP] / [BP K/N] / [BP DONE] markers at a glance, mission details get the full blueprint pool with [x]/[ ] ownership. · Die Contracts-Liste zeigt auf einen Blick [BP] / [BP K/N] / [BP DONE] Marker, Mission-Details bekommen den kompletten Blueprint-Pool mit [x]/[ ] Besitzstand.</sub>
+<sub>Contract list shows [BP] / [BP K/N] / [BP DONE] markers at a glance; mission details get blueprint price + drop chance up front and the full blueprint pool with [x]/[ ] ownership. · Die Contracts-Liste zeigt auf einen Blick [BP] / [BP K/N] / [BP DONE] Marker; Mission-Details bekommen Bauplan-Preis + Drop-Chance vorab plus den kompletten Blueprint-Pool mit [x]/[ ] Besitzstand.</sub>
 
 </div>
 
