@@ -72,7 +72,7 @@ juggling.
 - **Background watcher:** newly unlocked blueprints land in the `global.ini` automatically; they're in the game on your next launch.
 - **All channels:** LIVE, PTU, HOTFIX and TECH-PREV managed separately, each with its own injection settings.
 - **Guided setup & interactive tour:** 4-step wizard for first-time configuration plus a coachmark tour through every button — replayable anytime.
-- **5 themes:** UEE Dark, Light, Crimson, Ignis, Umbra — picked with a live preview card.
+- **5 themes:** Dark, Light, Crimson, Ignis, Umbra — picked with a live preview card.
 - **Built-in feedback:** one-click bug report or feature request, with system info and the matching GitHub issue template pre-filled.
 - **Auto-update:** Lexicore updates itself and stays in the tray during updates if it was already tray-resident.
 
@@ -121,7 +121,7 @@ manuelles Dateigeschiebe.
 - **Hintergrund-Watcher:** Neu freigeschaltete Blueprints landen automatisch in der `global.ini`, beim nächsten Spielstart sind sie drin.
 - **Alle Kanäle:** LIVE, PTU, HOTFIX und TECH-PREV getrennt verwaltbar, jeder mit eigenen Injektions-Einstellungen.
 - **Geführtes Setup & interaktive Tour:** 4-Schritte-Wizard für die Erst-Konfiguration plus Coachmark-Tour durch jede Schaltfläche — jederzeit wiederholbar.
-- **5 Themes:** UEE Dark, Light, Crimson, Ignis, Umbra — mit Live-Vorschau-Karten ausgewählt.
+- **5 Themes:** Dark, Light, Crimson, Ignis, Umbra — mit Live-Vorschau-Karten ausgewählt.
 - **Eingebautes Feedback:** Bug melden oder Feature vorschlagen mit einem Klick, System-Infos und das passende GitHub-Issue-Template werden vorausgefüllt.
 - **Auto-Update:** Lexicore aktualisiert sich selbst und bleibt während des Updates im Tray, falls es vorher dort lief.
 

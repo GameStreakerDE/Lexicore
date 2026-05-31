@@ -2,8 +2,6 @@
 
 **[English](#english) · [Deutsch](#deutsch)**
 
-> Note: This is a template and does not constitute legal advice.
-
 ## English
 
 Copyright © 2026 GameStreakerDE (Daniel Meyer). All rights reserved.
