@@ -1,5 +1,11 @@
 [
   {
+    "tag_name": "v0.6.15",
+    "name": "0.6.15",
+    "published_at": "2026-05-31T20:55:33Z",
+    "body": "# English\n\n## Features\n\n- **Seed your owned blueprints during setup.** Step 3 of the setup wizard now opens with a highlighted \"Read existing logs\" block — one button per configured channel. Lexicore scans your Game.log and the backup folder, marks every blueprint you already own, and shows the count when it's done. The `[x]` markers are accurate from the first install instead of only filling in as you play.\n\n---\n\n# Deutsch\n\n## Features\n\n- **Verdiente Baupläne direkt beim Setup einlesen.** Schritt 3 vom Setup-Assistenten beginnt jetzt mit einem hervorgehobenen Block „Bestehende Logs einlesen\" — pro konfiguriertem Kanal ein Button. Lexicore liest dein Game.log und den Backup-Ordner durch, markiert jeden Bauplan den du schon hast und zeigt dir die gefundene Anzahl. Die `[x]`-Marker sind ab der ersten Installation korrekt statt erst während des Spielens vollständig zu werden.\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/15a5b4c001c3b321ecf8b4e520628905670f5ba1f40b50f0eed7783229ddd6af\n"
+  },
+  {
     "tag_name": "v0.6.14",
     "name": "0.6.14",
     "published_at": "2026-05-30T23:49:20Z",
@@ -112,11 +118,5 @@
     "name": "0.5.2",
     "published_at": "2026-05-24T22:32:06Z",
     "body": "# English\n\n## Fixed\n\n- **Unlocked blueprints are now marked with `[x]` in-game too.** Blueprints whose name carried Lexicore's injected size/stat info at unlock time (e.g. `JS-300 (S1 A Military)`) showed as unlocked in the app but weren't checked off in-game. After a single \"Update/Install\" the checkmark appears as expected.\n\n---\n\n# Deutsch\n\n## Behoben\n\n- **Freigeschaltete Baupläne werden jetzt auch im Spiel mit `[x]` markiert.** Baupläne, deren Name beim Freischalten Lexicores eingefügte Größen-/Stat-Info trug (z. B. `JS-300 (S1 A Military)`), wurden in der App korrekt als freigeschaltet angezeigt, im Spiel aber nicht abgehakt. Nach einmaligem „Aktualisieren/Installieren\" erscheint das Häkchen wie erwartet.\n"
-  },
-  {
-    "tag_name": "v0.5.1",
-    "name": "0.5.1",
-    "published_at": "2026-05-24T21:25:37Z",
-    "body": "# English\n\n## Fixed\n\n- **Unlocked blueprints are now also marked with `[x]` in the game.** Blueprints whose name carried Lexicore's injected size/stat info at unlock time (e.g. `JS-300 (S1 A Military)`) were correctly shown as unlocked in the app, but not checked off in the game. After a one-time \"Update/Install\", the checkmark appears as expected.\n\n---\n\n# Deutsch\n\n## Behoben\n\n- **Freigeschaltete Baupläne werden jetzt auch im Spiel mit `[x]` markiert.** Baupläne, deren Name beim Freischalten Lexicores eingefügte Größen-/Stat-Info trug (z. B. `JS-300 (S1 A Military)`), wurden in der App korrekt als freigeschaltet angezeigt, im Spiel aber nicht abgehakt. Nach einmaligem „Aktualisieren/Installieren\" erscheint das Häkchen wie erwartet."
   }
 ]
