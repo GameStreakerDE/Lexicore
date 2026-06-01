@@ -25,6 +25,7 @@ The User is prohibited from:
 The Software uses works and data of third parties that are subject to their own license terms:
 - Base localization: "StarStrings" by MrKraken
 - Contract and blueprint data: scmdb.net
+- Authentication (optional): Discord Inc. (via OAuth2) — only used when the User actively opts in to Discord login.
 - Frameworks: Electron, Svelte, Vite and others (each under their open-source licenses)
 
 These components remain the property of their respective authors.
@@ -42,7 +43,16 @@ To the extent permitted by law, the Licensor shall not be liable for any damages
 The license terminates automatically upon any breach of this agreement. Upon termination the Software must be uninstalled and all copies deleted.
 
 ### 9. Privacy
-The Software itself does not collect or store any personal data. For updates and for loading game data the Software retrieves content from third parties (including GitHub and scmdb.net); the privacy policies of the respective providers apply to these requests.
+**Anonymous use:** by default Lexicore does not collect or store any personal data. The Software retrieves content from third parties for updates and game data (in particular GitHub and scmdb.net); the privacy policies of those providers apply to those requests.
+
+**Optional Discord login:** the User may opt in to sign in with a Discord account from the title-bar icon. When they do:
+- The Discord ID, username, display name (`global_name`) and avatar URL are transmitted to and stored at sc-lexicore.com.
+- A session token (JWT, 30-day validity) plus the same profile fields are stored locally in `lexicore.auth.json` under the application's user-data directory.
+- Lexicore reads no email address, no server memberships, and no further data from Discord; the OAuth2 scope is limited to `identify`.
+
+Sign-in is fully reversible: clicking "Abmelden" / "Sign out" deletes the local file. Server-side deletion is available as a self-service ("Konto löschen" button at sc-lexicore.com/auth) or via email to kontakt@sc-lexicore.com.
+
+The full privacy policy is published at https://sc-lexicore.com/datenschutz.html and forms an integral part of these terms.
 
 ### 10. Official Source
 The Software should be obtained exclusively from the Licensor's official source (GitHub: GameStreakerDE/Lexicore). No liability is assumed for damages caused by versions modified by third parties or obtained from unofficial sources.
@@ -78,6 +88,7 @@ Dem Nutzer ist es untersagt:
 Die Software nutzt Werke und Daten Dritter, die ihren eigenen Lizenzbedingungen unterliegen:
 - Basis-Lokalisierung: „StarStrings" von MrKraken
 - Daten zu Contracts und Blueprints: scmdb.net
+- Authentifizierung (optional): Discord Inc. (über OAuth2) — wird nur genutzt, wenn der Nutzer den Discord-Login aktiv einschaltet.
 - Frameworks: Electron, Svelte, Vite u. a. (jeweils unter ihren Open-Source-Lizenzen)
 
 Diese Bestandteile bleiben Eigentum ihrer jeweiligen Urheber.
@@ -95,7 +106,16 @@ Soweit gesetzlich zulässig, haftet der Lizenzgeber nicht für Schäden, die aus
 Die Lizenz endet automatisch bei einem Verstoß gegen diese Vereinbarung. Nach Beendigung ist die Software zu deinstallieren und sind alle Kopien zu löschen.
 
 ### 9. Datenschutz
-Die Software selbst erhebt oder speichert keine personenbezogenen Daten. Für Updates und zum Laden der Spieldaten ruft die Software Inhalte von Dritten ab (u. a. GitHub und scmdb.net); für diese Anfragen gelten die Datenschutzbestimmungen der jeweiligen Anbieter.
+**Anonyme Nutzung:** Lexicore erhebt im Standardfall keine personenbezogenen Daten. Für Updates und Spieldaten ruft die Software Inhalte von Dritten ab (insbesondere GitHub und scmdb.net); für diese Anfragen gelten die Datenschutzbestimmungen der jeweiligen Anbieter.
+
+**Optionaler Discord-Login:** Der Nutzer kann sich freiwillig über das Icon in der Titelleiste mit einem Discord-Account anmelden. In diesem Fall:
+- Werden Discord-ID, Benutzername, Anzeigename (`global_name`) und Avatar-URL an sc-lexicore.com übertragen und dort gespeichert.
+- Speichert die App ein Sitzungs-Token (JWT, 30 Tage gültig) sowie dieselben Profil-Felder lokal in der Datei `lexicore.auth.json` unter dem Benutzerdaten-Verzeichnis der Anwendung.
+- Liest Lexicore weder E-Mail-Adresse noch Server-Mitgliedschaften noch sonstige Discord-Daten; der OAuth2-Scope ist auf `identify` beschränkt.
+
+Die Anmeldung ist jederzeit vollständig widerruflich: Ein Klick auf „Abmelden" löscht die lokale Datei. Die serverseitige Löschung des Accounts ist als Self-Service möglich (Button „Konto löschen" auf sc-lexicore.com/auth) oder per E-Mail an kontakt@sc-lexicore.com.
+
+Die vollständige Datenschutzerklärung ist unter https://sc-lexicore.com/datenschutz.html veröffentlicht und ist integraler Bestandteil dieser Vereinbarung.
 
 ### 10. Offizielle Quelle
 Die Software sollte ausschließlich über die offizielle Quelle des Lizenzgebers bezogen werden (GitHub: GameStreakerDE/Lexicore). Für Schäden durch von Dritten veränderte oder aus inoffiziellen Quellen bezogene Versionen wird keine Haftung übernommen.
