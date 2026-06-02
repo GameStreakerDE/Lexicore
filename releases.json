@@ -1,5 +1,11 @@
 [
   {
+    "tag_name": "v0.6.17",
+    "name": "0.6.17",
+    "published_at": "2026-06-02T23:35:09Z",
+    "body": "# English\n\n## Hotfix\n\nInternal cleanup of the anonymous-statistics pipeline introduced in\nv0.6.16. If you had anonymous statistics turned on and then signed in\nvia Discord, your install was briefly counted in both the anonymous\nand the signed-in charts on the admin dashboard. The App now wipes\nthe anonymous ID the moment you sign in, and mints a fresh one if you\nlater sign out — no continuity with the prior identity.\n\n**No user-visible change.** Privacy policy unchanged (still no link\nbetween the anonymous ID and your Discord account).\n\n---\n\n# Deutsch\n\n## Hotfix\n\nInternes Aufräumen der anonymen Statistik-Funktion aus v0.6.16. Wenn\ndu anonyme Statistiken aktiviert hattest und dich später per Discord\nangemeldet hast, wurde deine Installation kurzzeitig sowohl im\nanonymen als auch im angemeldeten Diagramm im Admin-Dashboard\ngezählt. Die App löscht jetzt die anonyme ID beim Login und legt eine\nfrische an wenn du dich später wieder ausloggst — keine Verbindung\nzur vorherigen Identität.\n\n**Keine sichtbare Änderung für dich.** Datenschutzerklärung\nunverändert (weiterhin keine Verknüpfung zwischen anonymer ID und\ndeinem Discord-Account).\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/5e1dea0de0b26033152ddb5df58d25b8c74f6b49af3691e206787f5b0e99cc0a\n"
+  },
+  {
     "tag_name": "v0.6.16",
     "name": "0.6.16",
     "published_at": "2026-06-02T22:38:10Z",
@@ -112,11 +118,5 @@
     "name": "0.5.4",
     "published_at": "2026-05-25T03:31:22Z",
     "body": "# English\n\n## Changed\n\n- Internal: the releases/news repository moved to `github.com/GameStreakerDE/Lexicore`. Update checks and the in-app news now point to the new location. Nothing to do on your side — this update switches the source automatically.\n\n---\n\n# Deutsch\n\n## Geändert\n\n- Intern: Das Releases-/News-Repository liegt jetzt unter `github.com/GameStreakerDE/Lexicore`. Update-Prüfung und In-App-News zeigen auf den neuen Ort. Für dich nichts zu tun — dieses Update stellt die Quelle automatisch um.\n"
-  },
-  {
-    "tag_name": "v0.5.3",
-    "name": "0.5.3",
-    "published_at": "2026-05-24T23:43:21Z",
-    "body": "# English\n\n## Changed\n\n- The Ko-Fi button in the side banner is now labelled **\"☕ Fuel the dev\"**.\n\n---\n\n# Deutsch\n\n## Geändert\n\n- Der Ko-Fi-Button im Seitenbanner heißt jetzt **„☕ Entwickler koffeinieren\"**.\n"
   }
 ]
