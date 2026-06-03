@@ -52,6 +52,8 @@ The license terminates automatically upon any breach of this agreement. Upon ter
 
 Sign-in is fully reversible: clicking "Abmelden" / "Sign out" deletes the local file. Server-side deletion is available as a self-service ("Konto löschen" button at sc-lexicore.com/auth) or via email to kontakt@sc-lexicore.com.
 
+**Optional RSI account verification:** Signed-in Users may additionally choose to verify their public Star Citizen RSI handle (a free, opt-in feature offered on sc-lexicore.com/account/). When they do, the User's RSI handle, the timestamps of the verification and the most recent scrape, and their publicly visible RSI organization memberships (Spectrum ID, display name, main/affiliate status, member counts) are stored on sc-lexicore.com as part of the User's existing account record. No private RSI data is accessed. The feature can be undone at any time via the "Unlink" button at sc-lexicore.com/account/. Details: § 7.6 of the privacy policy at https://sc-lexicore.com/datenschutz.html.
+
 The full privacy policy is published at https://sc-lexicore.com/datenschutz.html and forms an integral part of these terms.
 
 ### 10. Official Source
@@ -114,6 +116,8 @@ Die Lizenz endet automatisch bei einem Verstoß gegen diese Vereinbarung. Nach B
 - Liest Lexicore weder E-Mail-Adresse noch Server-Mitgliedschaften noch sonstige Discord-Daten; der OAuth2-Scope ist auf `identify` beschränkt.
 
 Die Anmeldung ist jederzeit vollständig widerruflich: Ein Klick auf „Abmelden" löscht die lokale Datei. Die serverseitige Löschung des Accounts ist als Self-Service möglich (Button „Konto löschen" auf sc-lexicore.com/auth) oder per E-Mail an kontakt@sc-lexicore.com.
+
+**Optionale RSI-Account-Verknüpfung:** Eingeloggte Nutzer können zusätzlich freiwillig ihr öffentliches Star-Citizen-RSI-Handle verifizieren (kostenfreies Opt-in-Feature auf sc-lexicore.com/account/). In diesem Fall werden RSI-Handle, Zeitstempel der Verifizierung und des letzten Scrapes sowie die öffentlich sichtbaren RSI-Organisations-Mitgliedschaften (Spectrum ID, Anzeige-Name, Haupt-/Affiliate-Status, Mitgliederzähler) am bestehenden Konto-Datensatz auf sc-lexicore.com gespeichert. Es werden keine privaten RSI-Daten abgerufen. Die Verknüpfung kann jederzeit über den Button „Trennen" auf sc-lexicore.com/account/ aufgelöst werden. Details: § 7.6 der Datenschutzerklärung unter https://sc-lexicore.com/datenschutz.html.
 
 Die vollständige Datenschutzerklärung ist unter https://sc-lexicore.com/datenschutz.html veröffentlicht und ist integraler Bestandteil dieser Vereinbarung.
 
