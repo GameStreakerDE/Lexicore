@@ -47,7 +47,7 @@ The license terminates automatically upon any breach of this agreement. Upon ter
 
 **Optional Discord login:** the User may opt in to sign in with a Discord account from the title-bar icon. When they do:
 - The Discord ID, username, display name (`global_name`) and avatar URL are transmitted to and stored at sc-lexicore.com.
-- A session token (JWT, 30-day validity) plus the same profile fields are stored locally in `lexicore.auth.json` under the application's user-data directory.
+- A session token (JWT, 30-day validity) plus the same profile fields are stored locally in `lexicore.auth.json` under the application's user-data directory. The file is encrypted at rest via the OS keystore (Windows Credential Manager / macOS Keychain / libsecret on Linux); on platforms without an available keystore (e.g. headless Linux) the file falls back to plaintext with a warning to the application log.
 - Lexicore reads no email address, no server memberships, and no further data from Discord; the OAuth2 scope is limited to `identify`.
 
 Sign-in is fully reversible: clicking "Abmelden" / "Sign out" deletes the local file. Server-side deletion is available as a self-service ("Konto löschen" button at sc-lexicore.com/auth) or via email to kontakt@sc-lexicore.com.
@@ -114,7 +114,7 @@ Die Lizenz endet automatisch bei einem Verstoß gegen diese Vereinbarung. Nach B
 
 **Optionaler Discord-Login:** Der Nutzer kann sich freiwillig über das Icon in der Titelleiste mit einem Discord-Account anmelden. In diesem Fall:
 - Werden Discord-ID, Benutzername, Anzeigename (`global_name`) und Avatar-URL an sc-lexicore.com übertragen und dort gespeichert.
-- Speichert die App ein Sitzungs-Token (JWT, 30 Tage gültig) sowie dieselben Profil-Felder lokal in der Datei `lexicore.auth.json` unter dem Benutzerdaten-Verzeichnis der Anwendung.
+- Speichert die App ein Sitzungs-Token (JWT, 30 Tage gültig) sowie dieselben Profil-Felder lokal in der Datei `lexicore.auth.json` unter dem Benutzerdaten-Verzeichnis der Anwendung. Die Datei wird über den OS-Schlüsselbund (Windows Credential Manager / macOS Keychain / libsecret unter Linux) verschlüsselt; auf Plattformen ohne verfügbaren Schlüsselbund (z. B. headless Linux) fällt sie mit einer Warnung im Anwendungs-Log auf Klartext zurück.
 - Liest Lexicore weder E-Mail-Adresse noch Server-Mitgliedschaften noch sonstige Discord-Daten; der OAuth2-Scope ist auf `identify` beschränkt.
 
 Die Anmeldung ist jederzeit vollständig widerruflich: Ein Klick auf „Abmelden" löscht die lokale Datei. Die serverseitige Löschung des Accounts ist als Self-Service möglich (Button „Konto löschen" auf sc-lexicore.com/auth) oder per E-Mail an kontakt@sc-lexicore.com.
