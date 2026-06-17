@@ -1,5 +1,11 @@
 [
   {
+    "tag_name": "v0.7.8",
+    "name": "0.7.8",
+    "published_at": "2026-06-17T14:46:21Z",
+    "body": "# English\n\n## Hotfix\n\n- The in-app changelog no longer shows stale pre-release entries\n  once their changes have been folded into a stable release.\n\n---\n\n# Deutsch\n\n## Hotfix\n\n- Das In-App-Changelog zeigt keine veralteten Pre-Release-\n  Einträge mehr, sobald deren Änderungen in einem Stable-Release\n  zusammengeführt wurden.\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/2e537e13d7b112c1d3700b1f069b016eb7987d8383bf4f07c0698e54be94d0fe\n"
+  },
+  {
     "tag_name": "v0.7.7",
     "name": "0.7.7",
     "published_at": "2026-06-17T14:30:58Z",
@@ -112,11 +118,5 @@
     "name": "0.6.3",
     "published_at": "2026-05-28T01:40:52Z",
     "body": "# English\n\n## New\n\n- **Changes apply automatically.** When you change an injection setting — a channel's toggles, or a global option (item-size template, missile tags, journal text) — the affected *installed* channels rebuild on their own. No more manual \"Update\" click after every tweak.\n- **Last-update time per channel.** Each channel card now shows when its global.ini was last built (\"Updated 3m ago\"), next to the gear icon.\n\n---\n\n# Deutsch\n\n## Neu\n\n- **Änderungen wirken automatisch.** Wenn du eine Injection-Einstellung änderst — die Toggles eines Kanals oder eine globale Option (Item-Size-Template, Raketen-Kürzel, Journal-Texte) — bauen sich die betroffenen *installierten* Kanäle von selbst neu. Kein manueller „Update\"-Klick nach jeder Änderung mehr nötig.\n- **Letzte-Aktualisierung-Zeit pro Kanal.** Jede Kanal-Karte zeigt jetzt neben dem Zahnrad, wann ihre global.ini zuletzt gebaut wurde („Aktualisiert vor 3 Min\").\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/756dc39758678dd6358d41342060e8810293dca1e9f0002fe476610254ec94ec\n"
-  },
-  {
-    "tag_name": "v0.6.2",
-    "name": "0.6.2",
-    "published_at": "2026-05-28T00:03:19Z",
-    "body": "# English\n\n## New\n\n- **Restore the original journal text.** A new toggle in the Injections window (\"Name display\") brings back CIG's original Mining Compendium and Refueling Guide instead of the enriched StarStrings version. Off by default; takes effect after the next Update / reinstall of a channel.\n\n## Improved\n\n- **Pick your theme during setup.** The first-run wizard now lets you choose a theme right away.\n- **Faster update checks.** The app now checks for updates every 15 minutes instead of 30.\n- Light-theme polish: better contrast on status badges and muted text.\n\n---\n\n# Deutsch\n\n## Neu\n\n- **Original-Journaltexte wiederherstellen.** Ein neuer Schalter im Injections-Fenster („Namens-Anzeige\") holt CIGs originalen Mining-Compendium- und Refueling-Guide zurück, statt der angereicherten StarStrings-Version. Standardmäßig aus; wirkt nach dem nächsten Update / Neu-Installieren eines Kanals.\n\n## Verbessert\n\n- **Theme schon im Setup wählen.** Der Ersteinrichtungs-Assistent lässt dich jetzt direkt ein Theme auswählen.\n- **Schnellere Update-Prüfung.** Die App prüft jetzt alle 15 statt 30 Minuten auf Updates.\n- Light-Theme-Feinschliff: besserer Kontrast bei Status-Badges und gedämpftem Text.\n"
   }
 ]
