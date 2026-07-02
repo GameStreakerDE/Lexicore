@@ -1,5 +1,11 @@
 [
   {
+    "tag_name": "v0.7.9",
+    "name": "0.7.9",
+    "published_at": "2026-07-02T03:02:34Z",
+    "body": "# English\n\n## New\n\n- **Org pinboard markers.** When your organization pins items it's currently\n  hunting, those items now get an `[ORG: SID]` marker in their in-game\n  description (loot, missions, shops), so you can see at a glance what your org\n  needs. Turn it on under **Injections → \"Org pinboard markers\"**. Requires\n  sign-in and a linked RSI account; manage your org's pinboard at sc-lexicore.com.\n\n## Fixes\n\n- **Correct data for your game channel.** Blueprint and contract data now\n  matches the channel you're building for. A Live install no longer picks up\n  items from an upcoming PTU patch (renamed or not-yet-released blueprints).\n  Live builds use Live data, PTU builds use PTU data, in both the generated file\n  and the in-app blueprint list.\n- **Sign-in name.** When signed in, the app now shows your RSI handle instead of\n  your Discord name.\n\n---\n\n# Deutsch\n\n## Neu\n\n- **Orga-Pinboard-Marker.** Wenn deine Organisation gesuchte Items pinnt,\n  bekommen diese Items jetzt einen `[ORG: SID]`-Marker in ihrer In-Game-\n  Beschreibung (Loot, Missionen, Shops). So siehst du auf einen Blick, was deine\n  Orga gerade braucht. Aktivierbar unter **Injektionen → „Orga-Pinboard-Marker\"**.\n  Erfordert Login und verknüpften RSI-Account; das Pinboard deiner Orga\n  verwaltest du auf sc-lexicore.com.\n\n## Behoben\n\n- **Korrekte Daten für deinen Spiel-Channel.** Bauplan- und Contract-Daten\n  passen jetzt zum Channel, für den du baust. Ein Live-Build übernimmt keine\n  Items mehr aus einem kommenden PTU-Patch (umbenannte oder noch nicht\n  veröffentlichte Baupläne). Live nutzt Live-Daten, PTU nutzt PTU-Daten, sowohl\n  in der erzeugten Datei als auch in der In-App-Bauplanliste.\n- **Anzeigename beim Login.** Eingeloggt zeigt die App jetzt dein RSI-Handle\n  statt deinen Discord-Namen.\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/48b5e377367fb7eeee9fb3c813aa62c5c0fdcd7644131b2d58c3908700b954de\n"
+  },
+  {
     "tag_name": "v0.7.8",
     "name": "0.7.8",
     "published_at": "2026-06-17T14:46:21Z",
@@ -112,11 +118,5 @@
     "name": "0.6.4",
     "published_at": "2026-05-28T02:11:32Z",
     "body": "# English\n\n## New\n\n- **VirusTotal scan link.** Every release now includes a VirusTotal link, so you can check the (unsigned) installer against ~70 antivirus engines — shown in the release notes and the README.\n\n---\n\n# Deutsch\n\n## Neu\n\n- **VirusTotal-Scan-Link.** Jedes Release enthält jetzt einen VirusTotal-Link, mit dem du den (unsignierten) Installer gegen ~70 Antiviren-Engines prüfen kannst — in den Release-Notes und im README.\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/9401b3920a42344158079ac2e0072990610b9222aaaa9bca79240ebc8a21a434\n"
-  },
-  {
-    "tag_name": "v0.6.3",
-    "name": "0.6.3",
-    "published_at": "2026-05-28T01:40:52Z",
-    "body": "# English\n\n## New\n\n- **Changes apply automatically.** When you change an injection setting — a channel's toggles, or a global option (item-size template, missile tags, journal text) — the affected *installed* channels rebuild on their own. No more manual \"Update\" click after every tweak.\n- **Last-update time per channel.** Each channel card now shows when its global.ini was last built (\"Updated 3m ago\"), next to the gear icon.\n\n---\n\n# Deutsch\n\n## Neu\n\n- **Änderungen wirken automatisch.** Wenn du eine Injection-Einstellung änderst — die Toggles eines Kanals oder eine globale Option (Item-Size-Template, Raketen-Kürzel, Journal-Texte) — bauen sich die betroffenen *installierten* Kanäle von selbst neu. Kein manueller „Update\"-Klick nach jeder Änderung mehr nötig.\n- **Letzte-Aktualisierung-Zeit pro Kanal.** Jede Kanal-Karte zeigt jetzt neben dem Zahnrad, wann ihre global.ini zuletzt gebaut wurde („Aktualisiert vor 3 Min\").\n\n---\n\n🛡️ VirusTotal scan: https://www.virustotal.com/gui/file/756dc39758678dd6358d41342060e8810293dca1e9f0002fe476610254ec94ec\n"
   }
 ]
